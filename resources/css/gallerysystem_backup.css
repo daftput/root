@@ -1,0 +1,71 @@
+/*--Universal CONTENT BOX Gallery--*/
+
+
+.contentbox_gallery {
+	padding: 40px 50px 50px 0px;
+}
+
+/*--New Gallery System--*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+ 	float: left;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 24%;
+  max-width: 24%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+
+.column video {
+	margin-top: 8px;
+	vertical-align: bottom;
+	width: 100%;
+  }
+
+  @media only screen and (max-width: 641px) {
+    .row {
+        margin: 0 -4px; /* Add negative margin to compensate for padding removal */
+    }
+
+    .column {
+        flex: 100%; /* Make columns take up full width */
+        max-width: 100%; /* Ensure columns take up full width */
+        padding: 0 4px; /* Keep some padding on the sides */
+    }
+
+    .column img {
+        width: 100%; /* Make images take up full width of columns */
+        margin: 4px 0; /* Add margin to create space between images */
+    }
+}
+
+  /*----Gallery Responsive Flex System----*/
+@media only screen and (max-width: 642px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+  
+    .column img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1274px) {
+    .column {
+        flex: 48%;
+        max-width: 52%;
+    }
+}

@@ -1,0 +1,298 @@
+/*--CONTENT BOX project--*/
+
+.contentbox_project {
+	
+	background-color: #ccc transparent;
+	border: transparent 3px yellow;
+	font-family: "Inter";
+	padding-bottom: 30px;
+}
+
+/*--CONTENT BOX project Body--*/
+
+.contentbox_project_body {
+	border: blue transparent 2px;
+	background-color: blue transparent;
+  	display: flex;
+	justify-content: center;
+	padding: 44px 0px 0px 0px;
+	
+}
+
+/* project Right system */
+
+.project_right_body {
+    flex-wrap: wrap;
+    display:inline-block;
+    background-color: orange transparent;
+	padding-left: 84px;
+	padding-top: 4px;
+	padding-right: 38px;
+    }
+
+  
+  /* project Top Image */
+  .project_row_body {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    background-color: aqua transparent;
+
+    }
+  
+    .project_column_top {
+    flex: 100%;
+    max-width: 99.3%;
+    }
+  
+    .project_column_top img{
+    max-height: 376px;
+    max-width: 100%;
+    display: block;
+    }
+
+
+/*--project Content Left--*/
+
+
+.project_contentbox_left {
+	width: 348px;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	border: green transparent 1px;
+	background-color: red transparent;
+	text-align: justify;
+}
+
+/*--project Content Header--*/
+
+.project_header_name_jp {
+	padding-top: 4px;
+	font-size: 15pt;
+	font-weight: 600;
+	background-color: rgb(255, 235, 45);
+	height: 20px;
+	text-align: center;
+	color: #333333;	
+
+}
+
+.project_header_name {
+	font-size: 12.8pt;
+	font-weight: 450;
+	background-color: rgb(255, 235, 45);
+	height: 20px;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #333333;
+}
+
+.project_header_aka {
+	font-size: 10pt;
+	font-weight: 600;
+	padding: 4px 0px 4px 0px;
+	background-color: #d1cbcb;
+	height: 20px;
+	text-align: center;
+	color: #333333;
+	;
+}
+
+.project_header_penname {
+	font-size: 12pt;
+	font-weight: 600;
+	padding: 4px 0px 0px 0px;
+}
+
+.project_header_profession {
+	font-size: 9.8pt;
+	font-weight: 600;
+	padding: 4px 0px 0px 0px;
+	text-align: justify;	
+}
+
+.project_header_profession_jp {
+	font-size: 9.8pt;
+	padding: 4px 0px 0px 0px;
+	letter-spacing: -0.5px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+
+.project_originbd {
+	font-size: 10pt;
+	padding: 0px 0px 8px 0px;
+	text-align: center;
+}
+
+/*--Content Dash Line--*/
+
+.project_content_dash {
+	font-size: 8pt;
+	font-weight: 600;
+	padding: 0px 0px 8px 0px;
+	color: #c2c2c2;
+}
+
+/*--project Content Title--*/
+
+.project_content_title {
+	font-size: 10pt;
+	font-weight: 600;
+	padding: 0px 0px 10px 0px;
+}
+
+.project_content_subti {
+	font-size: 10pt;
+	padding: 0px 0px 0px 0px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.project_content_subti2 {
+	font-size: 10pt;
+	padding: 8px 0px 0px 0px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/*--project Content Body Text--*/
+
+.project_content_text {
+	font-size: 10pt;
+	padding-top: 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+.project_content_text_project_eng {
+	font-size: 10pt;
+	padding-top: 10px;
+	letter-spacing: -0.2px;
+	text-align:justify;
+	line-height: 130%;
+}
+
+.project_content_text_project_eng2 {
+	font-size: 10pt;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: -0.2px;
+	text-align:justify;
+	line-height: 130%;
+}
+
+.project_content_text_end {
+	font-size: 10pt;
+	padding-top: 10px;
+	padding: 0px 0px 8px 0px;
+}
+
+.project_content_text_bold {
+	font-size: 10pt;
+	padding-top: 10px;
+	padding: 0px 0px 0px 0px;
+	font-weight: 600;
+}
+
+
+
+.project_header_content_jp {
+	font-weight: 580;
+	text-align:justify;
+	font-size: 9.9pt;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+	padding-bottom: 4px;
+}
+
+.project_content_text_jp {
+	text-align:justify;
+	font-size: 9.9pt;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+}
+
+.project_content_text_jp2 {
+	text-align:justify;
+	font-size: 9.85pt;
+	padding: 10px 0px 0px 0px;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+}
+
+.project_content_text_jp3 {
+	text-align:justify;
+	font-size: 9.85pt;
+	padding: 10px 0px 10px 0px;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+}
+
+.project_content_text_jp_end {
+	text-align:justify;
+	font-size: 9.85pt;
+	padding: 0px 0px 8px 0px;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+}
+
+.project_content_text_jpsolo {
+	text-align:justify;
+	font-size: 9.85pt;
+	padding: 0px 0px 10px 0px;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+}
+  
+
+
+    /* project Overlay Image */
+
+  .image__overlay_non {
+	position:absolute;
+	top: 0;
+	left: 10;
+	height: 100%;
+	width: 100%;
+	background: rgba(255,255,255,0.7);
+	font-family: "Inter";
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 1;
+	transition: opacity 0.25s;
+}
+
+
+.image__title_project {
+	font-size: 14pt;
+	font-weight: 600;
+	letter-spacing: -1px;
+	cursor: default;
+}
+
+.image__description_home {
+	font-size: 12pt;
+	color: #333333;
+	margin-top: 1px;
+	letter-spacing: -0.8px;
+	cursor: default;
+
+}
+
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+  }
+  
+  .image-grid img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+  }

@@ -1,0 +1,98 @@
+/*--Contact Layout--*/
+
+
+.contact_header_content_jp {
+	font-weight: 580;
+	text-align:justify;
+	font-size: 9.9pt;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+	padding-bottom: 4px;
+}
+
+.contact_header_jp {
+	height: 16px;
+	font-size: 12pt;
+	font-weight: 600;
+	padding: 4px 0px 8px 0px;
+	letter-spacing: -0.9px;
+	text-align: justify;
+	background-color: rgb(255, 235, 45);
+	
+}
+
+.contact_subheader_jp {
+	font-size: 9.8pt;
+	font-weight: 600;
+	padding: 4px 0px 0px 0px;
+	letter-spacing: -0.5px;
+	text-align: center;
+}
+
+.contact_subheader {
+	font-size: 10pt;
+	padding-top: 10px;
+	padding: 8px 0px 8px 0px;
+}
+
+.contact_header_name {
+	padding-top: 4px;
+	font-size: 15pt;
+	font-weight: 600;
+	background-color: rgb(255, 235, 45);
+	height: 32px;
+	text-align: center;
+	color: #243b58;
+
+}
+
+/*--Content Dash Line--*/
+
+.contact_content_dash {
+	font-size: 8pt;
+	font-weight: 600;
+	padding: 0px 0px 8px 0px;
+	color: #c2c2c2;
+	
+}
+
+
+/*--CONTENT BOX--*/
+
+.contentbox_contact {
+	
+	background-color: #ccc transparent;
+	border: transparent 3px yellow;
+	font-family: "Inter";
+	padding-bottom: 30px;
+}
+
+/*--CONTENT BOX Body--*/
+
+.contentbox_contact_body {
+	border: blue transparent 2px;
+  	display: flex;
+	justify-content: center;
+	padding: 44px 0px 0px 0px;
+}
+
+/*--Content Left--*/
+
+
+.contact_contentbox_left {
+	width: 348px;
+	padding-bottom: 20px;
+	border: green transparent 1px;
+	text-align: justify;
+	padding-left: 8px;
+}
+
+/* Content Right */
+
+.contact_right_body {
+	position: fixed;
+	flex-wrap: wrap;
+	height: 820px;
+	display:inline-block;
+	overflow: hidden
+  }

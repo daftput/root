@@ -1,0 +1,312 @@
+/*--CONTENT BOX BIO--*/
+
+.contentbox_bio {
+	
+	background-color: #ccc transparent;
+	border: transparent 3px yellow;
+	font-family: "Inter";
+	padding-bottom: 30px;
+}
+
+/*--CONTENT BOX Bio Body--*/
+
+.contentbox_bio_body {
+	border: blue transparent 2px;
+  	display: flex;
+	justify-content: center;
+	padding: 44px 0px 0px 0px;
+}
+
+/*--BIO Content Left--*/
+
+
+.bio_contentbox_left {
+	width: 348px;
+	padding-bottom: 20px;
+	border: green transparent 1px;
+	text-align: justify;
+	padding-left: 8px;
+}
+
+/*--BIO Content Header--*/
+
+.bio_header_name {
+	padding-top: 4px;
+	font-size: 15pt;
+	font-weight: 600;
+	background-color: rgb(255, 235, 45);
+	height: 20px;
+	text-align: center;
+	color: #243b58;
+
+}
+
+.bio_header_name_jp {
+	font-size: 12.8pt;
+	font-weight: 400;
+	background-color: rgb(255, 235, 45);
+	height: 20px;
+	text-align: center;
+	padding-bottom: 8px;
+	color: #243b58;
+}
+
+.bio_header_aka {
+	font-size: 10pt;
+	font-weight: 600;
+	padding: 4px 0px 4px 0px;
+	background-color:#7a8ca4;
+	height: 20px;
+	text-align: center;
+	color:white;
+}
+
+.bio_header_name {
+	font-size: 15pt;
+	font-weight: 600;
+
+}
+
+.bio_header_name_jp {
+	font-size: 12.8pt;
+	font-weight: 400;
+}
+
+.bio_header_aka {
+	font-size: 10pt;
+	font-weight: 600;
+	padding-top: 4px;
+}
+
+.bio_header_penname {
+	font-size: 12pt;
+	font-weight: 600;
+	padding: 4px 0px 0px 0px;
+}
+
+.bio_header_profession {
+	font-size: 9.8pt;
+	font-weight: 600;
+	padding: 4px 0px 0px 0px;
+	text-align: justify;
+	
+}
+
+.bio_header_profession_jp {
+	font-size: 9.8pt;
+	font-weight: 600;
+	padding: 4px 0px 0px 0px;
+	letter-spacing: -0.5px;
+	text-align: center;
+	
+}
+
+.bio_originbd {
+	font-size: 10pt;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+/*--Content Dash Line--*/
+
+.bio_content_dash {
+	font-size: 8pt;
+	font-weight: 600;
+	padding: 0px 0px 8px 0px;
+	color: #c2c2c2;
+	
+}
+
+/*--BIO Content Title--*/
+
+.bio_content_title {
+	font-size: 10pt;
+	font-weight: 600;
+	padding: 0px 0px 10px 0px;
+}
+
+.bio_content_subti {
+	font-size: 10pt;
+	padding: 0px 0px 0px 0px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.bio_content_subti2 {
+	font-size: 10pt;
+	padding: 8px 0px 0px 0px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/*--BIO Content Body Text--*/
+
+.bio_content_text {
+	font-size: 10pt;
+	padding-top: 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+.bio_content_text_bio_eng {
+	font-size: 10pt;
+	padding-top: 10px;
+	letter-spacing: -0.2px;
+	text-align:justify;
+	line-height: 130%;
+}
+
+.bio_content_text_bio_eng2 {
+	font-size: 10pt;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: -0.2px;
+	text-align:justify;
+	line-height: 130%;
+}
+
+.bio_content_text_end {
+	font-size: 10pt;
+	padding-top: 10px;
+	padding: 0px 0px 8px 0px;
+}
+
+.bio_content_text_bold {
+	font-size: 10pt;
+	padding-top: 10px;
+	padding: 0px 0px 0px 0px;
+	font-weight: 600;
+}
+
+.bio_content_text_jp {
+	text-align:justify;
+	font-size: 9.9pt;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+}
+
+.bio_header_content_jp {
+	font-weight: 580;
+	text-align:justify;
+	font-size: 9.9pt;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+	padding-bottom: 4px;
+}
+
+.bio_content_text_jp2 {
+	text-align:justify;
+	font-size: 9.85pt;
+	padding: 10px 0px 10px 0px;
+	line-height: 140%;
+	letter-spacing: -0.7px;
+}
+
+/*--CONTENTBOX BIO IMAGE Right--*/
+
+.bio_row {
+	flex-wrap: wrap;
+	padding: 0 4px;
+	float: left;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.bio_column {
+	position: fixed;
+	flex: 61%;
+	padding: 0 80px;
+	margin-top: 8px;
+	height: 100%;
+  }
+
+.bio_column_image img{
+	height: 812px;
+	max-width: 100%;
+	object-fit: cover;
+	display: block;
+  }
+
+
+  /* Bio Right system */
+
+  .bio_right_body {
+	position: fixed;
+	flex-wrap: wrap;
+	height: 820px;
+	display:inline-block;
+	overflow: hidden
+  }
+
+
+
+  /* Bio Top Image */
+  .bio_row_top_body {
+	display: flex;
+	float: left;
+	padding: 0px 81px 0px 80px ;
+	   
+  }
+
+  .bio_column_top {
+	flex: 100%;
+	padding: 4px;
+  }
+
+  .bio_column_top img{
+	height: 376px;
+	max-width: 100%;
+	object-fit: cover;
+	display: block;
+  }
+
+  /* Create four equal columns that sits next to each other */
+
+  .bio_row_grid_body {
+	display: flex;
+	float: left;
+	padding: 0px 80px 0px 80px ;
+	   
+  }
+
+   .bio_column_grid {
+	flex: 100%;
+	padding: 4px;
+  }
+  
+  .bio_column_grid img {
+	max-width: 100%;
+	height: 201px;
+	object-fit: cover;
+	display: block;
+  }
+
+  .image__overlay_non {
+	position:absolute;
+	top: 0;
+	left: 10;
+	height: 100%;
+	width: 100%;
+	background: rgba(255,255,255,0.7);
+	font-family: "Inter";
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 1;
+	transition: opacity 0.25s;
+}
+
+.image__title_bio {
+	font-size: 14pt;
+	font-weight: 600;
+	letter-spacing: -1px;
+	cursor: default;
+}
+
+.image__description_home {
+	font-size: 12pt;
+	color: #333333;
+	margin-top: 1px;
+	letter-spacing: -0.8px;
+	cursor: default;
+
+}

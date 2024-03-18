@@ -1,0 +1,159 @@
+/*// Small devices (tablets, 576px and up)*/
+
+@media screen and (min-width: 480px) {
+	
+	body {
+		background-color: none;
+	}
+	
+	#home_img img{
+	display: none;}
+	
+    .contentbox_work {
+	border: none;
+	display: inline-block;
+}
+	
+	#contentbox_work_left {
+	display: inline-block;
+}
+
+	#contentbox_work_right{
+	display: inline-block;
+}
+	
+#contentbox_work_right img{
+	margin-left:0px;
+	margin-right: auto;
+	display: flex;
+	height:auto;
+	min-width: 90%;
+	align-content: center;
+	border:none;
+
+}
+
+}
+	
+#contentbox_work_left {
+	float: left;
+	margin-right:35px;
+	width:auto;
+	text-align: justify;
+	align-content: center;
+	border:none;
+	padding-right: 15px;
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+	body {
+		background-color: none;
+}
+		#home_img img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	align-content: center;
+	height:auto;
+	padding-top: 0px;
+	max-width: 95%;
+	padding-bottom: 10px;
+	padding-right: 80px;
+}
+	#home_s_img img{
+	display: none;
+}
+
+    .contentbox_work {
+	border: none;
+	display: inline-block;
+}
+	
+	#contentbox_work_left {
+	display: inline-block;
+}
+
+	#contentbox_work_right{
+	display: inline-block;
+}
+	#contentbox_work_right img{
+	display: flex;
+	height:auto;
+	min-width: 65%;
+	align-content: center;
+	border:none;
+
+}
+	
+    #contentbox_work_left {
+	float: left;
+	margin-right:127px;
+	width:305px;
+	text-align: justify;
+	align-content: center;
+	border:none;
+}
+	
+	
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+	body {
+		background-color: none;
+	}
+		#home_img img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	align-content: center;
+	height:auto;
+	padding-top: 5px;
+	max-width: 65%;
+	padding-bottom: 30px;
+	padding-right: 80px;
+}
+	#home_s_img img{
+	display: none;
+}
+	
+	.contentbox_work .wrap{
+		flex-direction:column;
+		
+}
+	
+    .contentbox_work {
+	border: none;
+	display: block;
+}
+	
+	#contentbox_work_left {
+	display: block;
+	float: left;
+	margin-right:20px;
+	width:305px;
+	text-align: justify;
+	align-content: center;
+	border:none;
+}
+
+	#contentbox_work_right{
+	display: block;
+	overflow: hidden;
+	padding-top: 50px;
+	border:none;
+		
+}
+	#contentbox_work_right img{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	height:auto;
+	min-width: 50%;
+	align-content: center;
+	border:none;
+
+}
+
+}
